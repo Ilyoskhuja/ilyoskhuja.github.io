@@ -574,10 +574,7 @@ var AuthorizationComponent = /** @class */ (function () {
         this.fadeOutSignInScreen = false;
         this.authElement = null;
         this.hammertime = null;
-        this.authElementId = false;
         this.authElementPosY = 0;
-        this.authElementDeltaY = 0;
-        this.count = 0;
     }
     AuthorizationComponent.prototype.ngOnInit = function () {
         this.signinForm = this.formbuilder.group({
@@ -603,29 +600,14 @@ var AuthorizationComponent = /** @class */ (function () {
     };
     AuthorizationComponent.prototype.ngAfterViewInit = function () {
         this.authElement = document.querySelector(".auth-class");
-        if (this.authElementId === false) {
-            this.authElement.id = "someid";
-            this.authElementId = true;
-            document
-                .getElementById("someid")
-                .setAttribute("panup", "callIt2($event)");
-        }
-        this.hammertime = new hammerjs__WEBPACK_IMPORTED_MODULE_6___default.a.Manager(this.authElement);
-        this.hammertime.get("pan").set({ direction: hammerjs__WEBPACK_IMPORTED_MODULE_6___default.a.DIRECTION_VERTICAL });
+        this.hammertime = new hammerjs__WEBPACK_IMPORTED_MODULE_6___default.a(this.authElement);
     };
     AuthorizationComponent.prototype.onPanMove = function (ev) {
-        this.count++;
-        console.log(this.count);
-        console.log("translateY(" + (this.authElementPosY + ev.deltaY) + "px)");
-        console.log(ev.eventType);
+        var current_pos = this.authElementPosY + ev.deltaY;
+        this.authElement.style.transform = "translateY(" + current_pos + "px)";
         if (ev.isFinal) {
-            this.count = 0;
-            this.authElementPosY = this.authElementPosY + ev.deltaY;
-            console.log("LAST: translateY(" + (this.authElementPosY + ev.deltaY) + "px)");
+            this.authElementPosY = current_pos;
         }
-        var el = document.getElementById("someid");
-        el.style.transform =
-            "translateY(" + (this.authElementPosY + ev.deltaY) + "px)";
     };
     AuthorizationComponent.prototype.getClientType = function () {
         var self = this;
@@ -5688,9 +5670,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm5/platform-browser-dynamic.js");
 /* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
-/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! hammerjs */ "./node_modules/hammerjs/hammer.js");
-/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(hammerjs__WEBPACK_IMPORTED_MODULE_4__);
-
 
 
 
@@ -5698,7 +5677,8 @@ __webpack_require__.r(__webpack_exports__);
 if (_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].production) {
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["enableProdMode"])();
 }
-Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
+Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformBrowserDynamic"])()
+    .bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
     .catch(function (err) { return console.error(err); });
 
 
