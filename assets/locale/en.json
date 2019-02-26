@@ -1,0 +1,259 @@
+{
+  "app": {
+    "Welcome": "Welcome",
+    "Notifications": "Notifications",
+    "New": "New"
+  },
+  "homePage": {
+    "Search": "Search",
+    "placeholderSearch": "Enter city, address or zipcode",
+    "buyTitle": "Find your way home®",
+    "rentTitle": "Find your next rental",
+    "sellTitle": "Sell your home",
+    "estimateTitle": "Your Home on Honadon®"
+  },
+  "sellPage": {
+    "mainInfo": "Main Information",
+    "title": "Title",
+    "clientType": "client type",
+    "action": "action",
+    "moneyType": "Money Type",
+    "price": "Price",
+    "buildingYear": "Building Year",
+    "reconstructionYear": "Reconstruction Year",
+    "buildingGroup": "Building Group",
+    "buildingType": "Building Type",
+    "region": "Region",
+    "district": "District",
+    "subway":"Subway",
+    "zipcode": "client type",
+    "image": "Image",
+    "imagePlaceholder": "Select image to upload",
+    "imagesPreview": "Images Preview",
+    "noImagesselected": "no Images Selected",
+    "video": "Video",
+    "videoPlaceholder": "Select video to upload",
+    "videoPreview": "Video Preview",
+    "noVideosSelected": "no Video Selected",
+    "buildingInfo": "Building Info",
+    "basement": "Basement",
+    "architecture": "Architecture",
+    "appliances": "Appliances",
+    "indoorFeature": "Indoor Features",
+    "outdoorAmenities": "Outdoor Amenities",
+    "utilityDetails": "Utility details",
+    "coolingSystem": "Cooling System",
+    "heatingSystem": "Heating system",
+    "roofType": "Roof Type",
+    "buildingDimensions": "Building Dimensions",
+    "contacts": "Contacts",
+    "save":"Save"
+  },
+  "filter": {
+    "Search": "Search",
+    "placeholderSearch": "Enter city, address or zipcode",
+    "price": "Price",
+    "sorting": "Sorting",
+    "buildingType": "Building Type",
+    "bedroom": "Bedroom",
+    "result": "Results",
+    "pricehightolow": "Price(High to Low)",
+    "newest": "Newest",
+    "cheapest": "Cheapest"
+  },
+  "info": {
+    "totalRooms":"Total rooms:",
+    "whyUse": "Why Use Honadon!",
+    "whyUseInfo": "Honadon is perfect for searching homes for sale in Uzbekistan. By analyzing real estate information on millions of homes for sale across Uzbekistan, we calculate home values (Hestimate) and the Honadon Home Value Price Index.",
+    "aboutRatings": "About the ratings:",
+    "aboutRatingsInfo": "GreatSchools ratings are based on a comparison of test results for all schools in the country. It is designed to be a starting point to help parents make baseline comparisons, not the only factor in selecting the right school for your family.",
+    "follow": "Follow Us",
+    "bedroom": "Спальная комната",
+    "result": "Результат",
+    "pricehightolow": "Цена (от высокой к низкой)",
+    "newest": "Недавно добавленные",
+    "cheapest": "Cамый дешевый"
+  },
+  "mainMenu": {
+    "Appointments": "Appointments",
+    "Customers": "Customers",
+    "Products": "Products",
+    "Orders": "Orders",
+    "About": "About",
+    "Logout": "Logout"
+  },
+  "pageHeader": {
+    "Buy": "Buy",
+    "Rent": "Rent",
+    "Sell": "Sell",
+    "Menu": "Menu",
+    "Home":"Home",
+
+    "Estimate": "Estimate",
+
+    "Dashboard": "Dashboard",
+    "Customers": "Customers",
+    "Products": "Products",
+    "Orders": "Orders",
+    "NotFound": "Not-Found",
+    "About": "About",
+    "Settings": "Settings"
+  },
+  "home": {
+    "NoWidgets1": "You have no widgets displayed. Goto",
+    "NoWidgets2": "to configure available widgets",
+    "StatisticsTitle": "Some Important Stuff"
+  },
+  "notFound": {
+    "404": "404",
+    "pageNotFound": "The page you are looking for does not exist",
+    "backToHome": "Back to home"
+  },
+  "settings": {
+    "tab": {
+      "Profile": "Profile",
+      "Preferences": "Preferences",
+      "Users": "Users",
+      "Roles": "Roles"
+    },
+    "header": {
+      "UserProfile": "User Profile",
+      "UserPreferences": "User Preferences",
+      "UserDepartments": "User Departments",
+      "UsersManagements": "Users Managements",
+      "RolesManagement": "Roles Management"
+    }
+  },
+  "preferences": {
+    "ReloadPreferences": "Reload Preferences:",
+    "ReloadPreferencesHint": "Load default preferences (local changes are discarded)",
+    "Language": "Language",
+    "English": "English",
+    "French": "French",
+    "Uzbek": "O'zbekcha",
+    "Russian": "Русский",
+    "Arabic": "Arabic",
+    "Korean": "Korean",
+    "LanguageHint": "Select the preferred language for your account",
+    "HomePage": "Home Page:",
+    "Dashboard": "Dashboard",
+    "Customers": "Customers",
+    "Products": "Products",
+    "Orders": "Orders",
+    "About": "About",
+    "Settings": "Settings",
+    "HomePageHint": "Select the default page to navigate to on login",
+    "Theme": "Theme:",
+    "DefaultColor": "<span class='default-theme-option'>Default</span>",
+    "RedColor": "<span class='red-theme-option'>Red</span>",
+    "OrangeColor": "<span class='orange-theme-option'>Orange</span>",
+    "GreenColor": "<span class='green-theme-option'>Green</span>",
+    "GrayColor": "<span class='gray-theme-option'>Gray</span>",
+    "BlackColor": "<span class='black-theme-option'>Black</span>",
+    "ThemeHint": "Select the default color theme for your account",
+    "DashboardStatistics": "Dashboard Statistics:",
+    "DashboardStatisticsHint": "Show demo graph widget on the dashboard",
+    "DashboardNotifications": "Dashboard Notifications:",
+    "DashboardNotificationsHint": "Show application notifications on the dashboard",
+    "DashboardTodo": "Dashboard Todo:",
+    "DashboardTodoHint": "Shows demo todo widget on the dashboard",
+    "DashboardBanner": "Dashboard Banner:",
+    "DashboardBannerHint": "Show demo information banner widget on the dashboard",
+    "ResetDefault": "Reset default",
+    "SetDefault": "Set as default"
+  },
+  "users": {
+    "management": {
+      "Search": "Search for user...",
+      "NewUser": "New User",
+      "Edit": "Edit",
+      "Delete": "Delete",
+      "EditUser": "Edit User \"{{name}}\"",
+      "Title": "Title",
+      "UserName": "User Name",
+      "FullName": "Full Name",
+      "Email": "Email",
+      "Roles": "Roles",
+      "PhoneNumber": "Phone Number"
+    },
+    "editor": {
+      "JobTitle": "Job Title: ",
+      "UserName": "User Name:",
+      "UserNameRequired": "User name is required (minimum of 2 and maximum of 200 characters)",
+      "Password": "Password:",
+      "PasswordHint": "Your password is required when changing user name",
+      "CurrentPasswordRequired": "Current password is required",
+      "Email": "Email:",
+      "EmailRequired": "Email address is required (maximum of 200 characters)",
+      "InvalidEmail": "Specified email is not valid",
+      "ChangePassword": "Change Password",
+      "CurrentPassword": "Current Password:",
+      "NewPassword": "New Password:",
+      "NewPasswordRequired": "New password is required (minimum of 6 characters)",
+      "ConfirmPassword": "Confirm Password:",
+      "ConfirmationPasswordRequired": "Confirmation password is required",
+      "PasswordMismatch": "New password and confirmation password do not match",
+      "Roles": "Roles:",
+      "FullName": " Full Name:",
+      "RoleRequired": " Role is required",
+      "PhoneNumber": "Phone #:",
+      "Enabled": "Enabled",
+      "Unblock": "Unblock",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "roles": {
+    "management": {
+      "Search": "Search for role...",
+      "NewRole": "New Role",
+      "Edit": "Edit",
+      "Details": "Details",
+      "Delete": "Delete",
+      "RoleDetails": "Role Details \"{{name}}\"",
+      "EditRole": "Edit Role \"{{name}}\"",
+      "Name": "Name",
+      "Description": "Description",
+      "Users": "Users"
+    },
+    "editor": {
+      "Name": "Name:",
+      "Description": "Description:",
+      "RoleNameRequired": "Role name is required (minimum of 2 and maximum of 200 characters)",
+      "SelectAll": "Select all",
+      "SelectNone": "Select none",
+      "Close": "Close",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "notifications": {
+    "Delete": "Delete notification",
+    "Pin": "Pin notification",
+    "Date": "Date",
+    "Notification": "Notification"
+  },
+  "todoDemo": {
+    "management": {
+      "Search": "Search for task...",
+      "HideCompleted": "Hide Completed",
+      "AddTask": "Add Task",
+      "Delete": "Delete task",
+      "Important": "Mark as important",
+      "Task": "Task",
+      "Description": "Description"
+    },
+    "editor": {
+      "NewTask": "New Task",
+      "Name": "Name",
+      "TaskNameRequired": "Task name is required",
+      "Description": "Description",
+      "Important": "Mark as important",
+      "AddTask": "Add Task"
+    }
+  }
+}
